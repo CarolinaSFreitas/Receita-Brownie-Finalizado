@@ -1,0 +1,134 @@
+body {
+    background-color: #F0F0F0;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box {
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 798px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.title {
+    color: #FF6A28;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+}
+.sub-title {
+    margin-top: 8px;
+    font-size: 16px;
+    color: #61656D;
+}
+.image {
+    margin-top: 14px;
+    width: 100%;
+}
+.info-box{
+    width: 118px;
+    height: 85px;
+    background-color: #F0F0F0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.icon{
+    width: 20px;
+}
+.info-text{
+    margin-top: 8px;
+    color: #61656D;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.info-strong-text{
+    margin-top: 8px;
+    color: #FF6A28;
+    text-transform: uppercase;
+}
+.info-wrapper{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: center;
+    justify-content: space-between;
+}
+.owner-box{
+    width: 238px;
+    height: 85px;
+    background-color: #F0F0F0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.owner-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 11px;
+}
+.owner-name {
+    font-weight: 700;
+    font-size: 14px;
+    color: #FF6A28;
+}
+.owner-info {
+    font-size: 14px;
+    color:#61656D;
+}
+.owner-image {
+    width: 60px;
+    height: 60px;
+}
+.ingredients-box{
+    margin-top: 37px;
+}
+.title-wrapper{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.icon-title{
+    margin-left: 8px;
+}
+.unordered-list{
+    list-style-position: inside;
+    margin-top: 12px;
+}
+.item-list{
+    margin-bottom: 10px;
+    color: #61656D;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.preparation-box{
+    margin-top: 16px;
+}
+.preparation-item{
+    margin-bottom: 20px;
+}
+.add-info-box{
+    margin-top: 16px;
+}
+.secundary-title{
+    background-color: #F0F0F0;
+    padding: 8px 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #61656D;
+    text-align: center;
+}
+.add-info-text {
+    margin-top: 16px;
+}
+.add-info-text p {
+    color: #61656D;
+    font-size: 14px;
+}
